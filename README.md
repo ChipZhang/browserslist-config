@@ -1,12 +1,14 @@
 # A Browserslist shareable config featuring separate configs of development and production
 
-## For development
+## Overview
+
+### For development
 
 If `NODE_ENV` or `BROWSERSLIST_ENV` is `development`,
 the effective browser queries are the last 2 versions of Chrome, Firefox, Safari and Firefox ESR,
 thus speeding up compiling speed (if using babel for example), used for developing features.
 
-## For production
+### For production
 
 If `NODE_ENV` or `BROWSERSLIST_ENV` is `production`,
 the effective browser queries will include old browsers, used for testing browser compatibility.

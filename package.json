@@ -1,6 +1,6 @@
 {
 	"name": "@chipzhang/browserslist-config",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "A Browserslist shareable config featuring separate configs of development and production",
 	"keywords": [
 		"browserslist",
@@ -26,8 +26,9 @@
 	"scripts": {
 		"prettier": "prettier --write ."
 	},
+	"dependencies": {},
 	"devDependencies": {
-		"@chipzhang/prettier-config": "^0.1.1",
+		"@chipzhang/prettier-config": "^0.1.2",
 		"browserslist": "^4.16.6",
 		"prettier": "2.3.0"
 	}
